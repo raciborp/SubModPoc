@@ -1,2 +1,4 @@
 include ':app'
 include ':modA'
+include ':modB'
+include ':modB:modAxB'
