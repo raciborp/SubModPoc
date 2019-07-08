@@ -1,0 +1,3 @@
+[submodule "modA"]
+	path = modA
+	url = git@github.com:raciborp/ModA.git
