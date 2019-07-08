@@ -3,7 +3,7 @@ package com.pawelraciborski.smp
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.pawelraciborski.moda.TestA
-import com.pawelraciborski.moda.TestB
+import com.pawelraciborski.modb.TestB
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
