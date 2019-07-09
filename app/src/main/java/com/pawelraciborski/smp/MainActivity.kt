@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.pawelraciborski.moda.TestA
 import com.pawelraciborski.modb.TestB
+import com.pawelraciborski.modd.TestD
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -12,6 +13,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        tvContent.text = "${TestA.hello()}/${TestB.hello()}"
+        tvContent.text = "${TestA.hello()}/${TestB.hello()}/${TestD.buzzinga()}"
     }
 }

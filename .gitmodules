@@ -4,3 +4,6 @@
 [submodule "modB"]
 	path = modB
 	url = git@github.com:raciborp/ModB.git
+[submodule "modD"]
+	path = modD
+	url = git@github.com:raciborp/ModD.git
